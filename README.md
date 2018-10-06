@@ -14,7 +14,7 @@ Visual Studio Code (version > 1.10.0)
 ### Usage
 *Options*
 |prefix|discrition|
-|:---:|:---:|
+|:------:|:------:|
 |info|file info|
 |cpp|C++ quick start|
 |cppcv|C++ quick start for OpenCV|
@@ -22,6 +22,7 @@ Visual Studio Code (version > 1.10.0)
 
 
 *Demo*
+src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif" width="650" height="500" alt="wechat"/>
 ![demo](https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif)
 
 
@@ -33,7 +34,7 @@ We use [SemVer](https://semver.org/) for versioning. For the versions available,
 
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
-<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/pic/wx.jpg" width="150" height="150" alt="wechat"/>
+<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/wx.jpg" width="150" height="150" alt="wechat"/>
 
 
 See also the list of [contributors](https://github.com/xindzju/vscode-cppsnippets/graphs/contributors) who participated in this project.
