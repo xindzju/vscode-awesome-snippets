@@ -1,0 +1,41 @@
+{
+    "name": "vscode-cppsnippets",
+    "displayName": "Awesome CPP Snippets",
+    "description": "The most complete C++ snippets for VS Code.",
+    "icon": "images/logo.png",
+    "version": "0.0.10",
+    "publisher": "xindzju",
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "publish": "npm version patch && vsce publish && git push"
+    },
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xindzju/vscode-cppsnippets"
+    },
+    "keywords": [
+        "vscode",
+        "c++",
+        "snippets"
+    ],
+    "author": "xindzju",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xindzju/vscode-cppsnippets/issues"
+    },
+    "homepage": "https://github.com/xindzju/vscode-cppsnippets"
+}
