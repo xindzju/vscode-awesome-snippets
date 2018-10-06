@@ -23,7 +23,8 @@ Visual Studio Code (version > 1.10.0)
 
 
 *Demo*
-<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif" width="650" height="500" alt="wechat"/>
+
+<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif" width="650" height="500" alt="demo"/>
 
 
 
