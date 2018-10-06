@@ -13,6 +13,7 @@ Visual Studio Code (version > 1.10.0)
 
 ### Usage
 *Options*
+
 |prefix|discrition|
 |:------:|:------:|
 |info|file info|
@@ -22,8 +23,8 @@ Visual Studio Code (version > 1.10.0)
 
 
 *Demo*
-src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif" width="650" height="500" alt="wechat"/>
-![demo](https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif)
+<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif" width="650" height="500" alt="wechat"/>
+
 
 
 ### Contributing
