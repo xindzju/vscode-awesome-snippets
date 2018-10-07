@@ -21,6 +21,7 @@ The most complete C/C++, Python snippets for VS Code.
 |more is comming||
 
 *Demo*
+
 <img src="https://raw.githubusercontent.com/xindzju/vscode-awesome-snippets/master/images/vscdemo.gif" width="650" height="500" alt="demo"/>
 
 
@@ -34,6 +35,7 @@ We use [SemVer](https://semver.org/) for versioning. For the versions available,
 
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
+
 <img src="https://raw.githubusercontent.com/xindzju/vscode-awesome-snippets/master/images/wx.jpg" width="150" height="150" alt="wechat"/>
 
 See also the list of [contributors](https://github.com/xindzju/vscode-cppsnippets/graphs/contributors) who participated in this project.
