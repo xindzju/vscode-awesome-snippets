@@ -44,7 +44,7 @@ We use [SemVer](https://semver.org/) for versioning. For the versions available,
 See also the list of [contributors](https://github.com/xindzju/vscode-cppsnippets/graphs/contributors) who participated in this project.
 
 ### License
-This project if licensed under the MIT License - see the [LICNESE](https://github.com/xindzju/vscode-cppsnippets/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICNESE](https://github.com/xindzju/vscode-cppsnippets/blob/master/LICENSE) file for details.
 
 ### Acknowledgements
 * Hat tip to anyone whose code are used
