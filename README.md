@@ -5,7 +5,6 @@ The most complete C/C++, Python snippets for VS Code.
 #### Prerequisites
 [Visual Studio Code](https://code.visualstudio.com/) (version > 1.10.0)
 
-
 #### Installing
 * Step1: Install [Visual Studio Code](https://code.visualstudio.com/).
 * Step2: Press Ctrl + Shift + X (windows), Choose the extension "Awesome Snippets", Click the install button.
@@ -21,11 +20,8 @@ The most complete C/C++, Python snippets for VS Code.
 |cppcv|C++ quick start for OpenCV|
 |more is comming||
 
-
 *Demo*
-
 <img src="https://raw.githubusercontent.com/xindzju/vscode-awesome-snippets/master/images/vscdemo.gif" width="650" height="500" alt="demo"/>
-
 
 
 ### Contributing
@@ -39,7 +35,6 @@ We use [SemVer](https://semver.org/) for versioning. For the versions available,
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
 <img src="https://raw.githubusercontent.com/xindzju/vscode-awesome-snippets/master/images/wx.jpg" width="150" height="150" alt="wechat"/>
-
 
 See also the list of [contributors](https://github.com/xindzju/vscode-cppsnippets/graphs/contributors) who participated in this project.
 
