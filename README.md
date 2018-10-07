@@ -8,7 +8,7 @@ Visual Studio Code (version > 1.10.0)
 
 #### Installing
 * Step1: Install [Visual Studio Code](https://code.visualstudio.com/).
-* Step2: Press Ctrl + Shift + X (windows), Choose the extension "Awesome CPP Snippets", Click the install button.
+* Step2: Press Ctrl + Shift + X (windows), Choose the extension "Awesome Snippets", Click the install button.
 * Step3: Relaunch Visual Studio Code to make the extension work.
 
 ### Usage
