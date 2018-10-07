@@ -34,6 +34,8 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 ### Versioning 
 We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/xindzju/vscode-cppsnippets/tags).
 
+Any requests and feedbacks are most welcome and appreciated, please feel free to contact me via [issue](https://github.com/xindzju/vscode-awesome-snippets/issues) or [email](xindeng3@gmail.com).
+
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
 <img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/wx.jpg" width="150" height="150" alt="wechat"/>
