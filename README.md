@@ -31,10 +31,10 @@ Visual Studio Code (version > 1.10.0)
 ### Contributing
 Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
 
+Any requests and feedbacks are most welcome and appreciated, please feel free to contact me via [issue](https://github.com/xindzju/vscode-awesome-snippets/issues) or [email](https://github.com/xindzju).
+
 ### Versioning 
 We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/xindzju/vscode-cppsnippets/tags).
-
-Any requests and feedbacks are most welcome and appreciated, please feel free to contact me via [issue](https://github.com/xindzju/vscode-awesome-snippets/issues) or [email](xindeng3@gmail.com).
 
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
