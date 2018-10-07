@@ -3,7 +3,7 @@ The most complete C/C++, Python snippets for VS Code.
 
 ### Getting Started
 #### Prerequisites
-Visual Studio Code (version > 1.10.0)
+[Visual Studio Code](https://code.visualstudio.com/) (version > 1.10.0)
 
 
 #### Installing
@@ -14,7 +14,7 @@ Visual Studio Code (version > 1.10.0)
 ### Usage
 *Options*
 
-|prefix|discrition|
+|prefix|discription|
 |:------:|:------:|
 |info|file info|
 |cpp|C++ quick start|
