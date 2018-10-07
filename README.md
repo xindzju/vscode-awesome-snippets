@@ -24,7 +24,7 @@ Visual Studio Code (version > 1.10.0)
 
 *Demo*
 
-<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/vscdemo.gif" width="650" height="500" alt="demo"/>
+<img src="images/vscdemo.gif" width="650" height="500" alt="demo"/>
 
 
 
@@ -36,7 +36,7 @@ We use [SemVer](https://semver.org/) for versioning. For the versions available,
 
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
-<img src="https://github.com/xindzju/vscode-cppsnippets/blob/master/images/wx.jpg" width="150" height="150" alt="wechat"/>
+<img src="images/wx.jpg" width="150" height="150" alt="wechat"/>
 
 
 See also the list of [contributors](https://github.com/xindzju/vscode-cppsnippets/graphs/contributors) who participated in this project.
