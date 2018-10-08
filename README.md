@@ -1,4 +1,4 @@
-# vscode-Awesome Snippets Complete
+# VSCode-Awesome Snippets Complete
 The most complete C/C++, Python snippets for VS Code.
 
 ### Getting Started
