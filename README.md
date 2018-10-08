@@ -20,7 +20,7 @@ The most complete C/C++, Python snippets for VS Code.
 | cppcv           | C++ quick start for OpenCV |
 | more is comming |
 
-<font color=DarkGreen>*Options for C++*</font>
+<font color=DarkGreen>*Options for Python*</font>
 
 | prefix          | discription      |
 | :-------------: | :--------------: |
@@ -38,7 +38,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 Any requests and feedbacks are most welcome and appreciated, please feel free to contact me via [issue](https://github.com/xindzju/vscode-awesome-snippets/issues) or [email](https://github.com/xindzju).
 
 <table><tr><td bgcolor=LightSkyBlue>
-<font color=DarkGreen>Side, welcome to share your favorite snippets.</font></td></tr></table>
+<font color=DarkGreen>Welcome to share your favorite snippets.</font></td></tr></table>
 
 
 ### Versioning 
