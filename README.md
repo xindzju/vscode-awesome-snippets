@@ -24,7 +24,7 @@ The most complete C/C++, Python snippets for VS Code.
 
 | prefix          | discription      |
 | :-------------: | :--------------: |
-| info            | python file info |
+| info            | Python file info |
 | more is comming |
 
 *Demo*
