@@ -11,7 +11,7 @@ The most complete C/C++, Python snippets for VS Code.
 * Step3: Relaunch Visual Studio Code to make the extension work.
 
 ### Usage
-<font color=DarkGreen>*Options for C++*</font></td></tr></table>
+<font color=DarkGreen>*Options for C++*</font>
 
 | prefix          | discription                |
 | :-------------: | :------------------------: |
@@ -20,7 +20,7 @@ The most complete C/C++, Python snippets for VS Code.
 | cppcv           | C++ quick start for OpenCV |
 | more is comming |
 
-<font color=DarkGreen>*Options for Python*</font></td></tr></table>
+<font color=DarkGreen>*Options for C++*</font>
 | prefix          | discription      |
 | :-------------: | :--------------: |
 | info            | python file info |
@@ -37,7 +37,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 Any requests and feedbacks are most welcome and appreciated, please feel free to contact me via [issue](https://github.com/xindzju/vscode-awesome-snippets/issues) or [email](https://github.com/xindzju).
 
 <table><tr><td bgcolor=LightSkyBlue>
-<font color=DarkGreen>Side, welcome to share your favorite snippets, maybe that's what the user needs.</font></td></tr></table>
+<font color=DarkGreen>Side, welcome to share your favorite snippets.</font></td></tr></table>
 
 
 ### Versioning 
