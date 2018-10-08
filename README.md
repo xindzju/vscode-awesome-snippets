@@ -11,14 +11,20 @@ The most complete C/C++, Python snippets for VS Code.
 * Step3: Relaunch Visual Studio Code to make the extension work.
 
 ### Usage
-*Options*
+<font color=DarkGreen>*Options for C++*</font></td></tr></table>
 
-|prefix|discription|
-|:------:|:------:|
-|info|file info|
-|cpp|C++ quick start|
-|cppcv|C++ quick start for OpenCV|
-|more is comming||
+| prefix          | discription                |
+| :-------------: | :------------------------: |
+| info            | C++ file info              |
+| cpp             | C++ quick start            |
+| cppcv           | C++ quick start for OpenCV |
+| more is comming |
+
+<font color=DarkGreen>*Options for Python*</font></td></tr></table>
+| prefix          | discription      |
+| :-------------: | :--------------: |
+| info            | python file info |
+| more is comming |
 
 *Demo*
 
@@ -30,13 +36,15 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 Any requests and feedbacks are most welcome and appreciated, please feel free to contact me via [issue](https://github.com/xindzju/vscode-awesome-snippets/issues) or [email](https://github.com/xindzju).
 
+<table><tr><td bgcolor=LightSkyBlue>
+<font color=DarkGreen>Side, welcome to share your favorite snippets, maybe that's what the user needs.</font></td></tr></table>
+
+
 ### Versioning 
 We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/xindzju/vscode-cppsnippets/tags).
 
 ### Authors
 * Charles Deng  --Initial work-- [xindzju](https://github.com/xindzju)
-
-<img src="https://raw.githubusercontent.com/xindzju/vscode-awesome-snippets/master/images/wx.jpg" width="150" height="150" alt="wechat"/>
 
 See also the list of [contributors](https://github.com/xindzju/vscode-cppsnippets/graphs/contributors) who participated in this project.
 
