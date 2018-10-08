@@ -1,51 +1,57 @@
 {
-    "author": {
-        "prefix": "info",
-        "body": [
-            "/*=============================================================================", 
-            "#  Author:          ${1: xindzju - https://github.com/xindzju/}",
-            "#  Email:           ${2: xindeng3@gmail.com}",
-            "#  FileName:        ${3: test.cpp}",
-            "#  Description:     ${4: /}",
-            "#  Version:         ${5: 0.0.1}",
-            "#  History:         $6",
-            "=============================================================================*/",
-            "$7"
-        ],
-        "descriptioin": "File info"
-    },
+  "author": {
+    "prefix": "info",
+    "body": [
+      "/*=============================================================================",
+      "#  Author:          ${1: xindzju - https://github.com/xindzju/}",
+      "#  Email:           ${2: xindeng3@gmail.com}",
+      "#  FileName:        ${3: test.cpp}",
+      "#  Description:     ${4: /}",
+      "#  Version:         ${5: 0.0.1}",
+      "#  History:         $6",
+      "=============================================================================*/",
+      "$7"
+    ],
+    "descriptioin": "File info"
+  },
 
-    "cpp": {
-		"prefix": "cpp",
-		"body": [
-            "#include <iostream>",
-            "",
-            "using namespace std;", 
-            "",
-            "int main() {",
-            "   $1",
-            "   cin.get();",
-            "   return 0;",
-            "}"
-    	],
-		"description": "C++ quick start"
-    },
+  "cpp": {
+    "prefix": "cpp",
+    "body": [
+      "#include <iostream>",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "   $1",
+      "   cin.get();",
+      "   return 0;",
+      "}"
+    ],
+    "description": "C++ quick start"
+  },
 
-    "cpp-OpenCV": {
-		"prefix": "cppcv",
-		"body": [
-            "#include <iostream>",
-            "#include <opencv2/opencv.hpp>",
-            "",
-            "using namespace std;",
-            "using namespace cv;",
-            "",
-            "int main() {",
-            "   $1",
-            "   cin.get();",
-            "   return 0;",
-            "}"
-    	],
-		"description": "C++ quick start for OpenCV"
-    }
+  "cpp-OpenCV": {
+    "prefix": "cv",
+    "body": [
+      "#include <iostream>",
+      "#include <opencv2/opencv.hpp>",
+      "",
+      "using namespace std;",
+      "using namespace cv;",
+      "",
+      "int main() {",
+      "   $1",
+      "   cin.get();",
+      "   return 0;",
+      "}"
+    ],
+    "description": "C++ quick start for OpenCV"
+  },
+
+  "class": {
+    "prefix": "class",
+    "body": ["class A {", "public:", "\t$1", "private:", "\t$2", "}"],
+    "description": "C++ class template"
+  }
 }

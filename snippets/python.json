@@ -1,130 +1,132 @@
 {
-    "if": {
-        "prefix": "if",
-        "body": [
-            "if ${1:expression}:",
-            "\t${2:pass}"
-        ],
-        "description": "Code snippet for an if statement"
-    },
-    "if/else": {
-        "prefix": "if/else",
-        "body": [
-            "if ${1:condition}:",
-            "\t${2:pass}",
-            "else:",
-            "\t${3:pass}"
-        ],
-        "description": "Code snippet for an if statement with else"
-    },
-    "elif": {
-        "prefix": "elif",
-        "body": [
-            "elif ${1:expression}:",
-            "\t${2:pass}"
-        ],
-        "description": "Code snippet for an elif"
-    },
-    "else": {
-        "prefix": "else",
-        "body": [
-            "else:",
-            "\t${1:pass}"
-        ],
-        "description": "Code snippet for an else"
-    },
-    "while": {
-        "prefix": "while",
-        "body": [
-            "while ${1:expression}:",
-            "\t${2:pass}"
-        ],
-        "description": "Code snippet for a while loop"
-    },
-    "while/else": {
-        "prefix": "while/else",
-        "body": [
-            "while ${1:expression}:",
-            "\t${2:pass}",
-            "else:",
-            "\t${3:pass}"
-        ],
-        "description": "Code snippet for a while loop with else"
-    },
-    "for": {
-        "prefix": "for",
-        "body": [
-            "for ${1:target_list} in ${2:expression_list}:",
-            "\t${3:pass}"
-        ],
-        "description": "Code snippet for a for loop"
-    },
-    "for/else": {
-        "prefix": "for/else",
-        "body": [
-            "for ${1:target_list} in ${2:expression_list}:",
-            "\t${3:pass}",
-            "else:",
-            "\t${4:pass}"
-        ],
-        "description": "Code snippet for a for loop with else"
-    },
-    "try/except": {
-        "prefix": "try/except",
-        "body": [
-            "try:",
-            "\t${1:pass}",
-            "except ${2:expression} as ${3:identifier}:",
-            "\t${4:pass}"
-        ],
-        "description": "Code snippet for a try/except statement"
-    },
-    "try/finally": {
-        "prefix": "try/finally",
-        "body": [
-            "try:",
-            "\t${1:pass}",
-            "finally:",
-            "\t${2:pass}"
-        ],
-        "description": "Code snippet for a try/finally statement"
-    },
-    "try/except/else": {
-        "prefix": "try/except/else",
-        "body": [
-            "try:",
-            "\t${1:pass}",
-            "except ${2:expression} as ${3:identifier}:",
-            "\t${4:pass}",
-            "else:",
-            "\t${5:pass}"
-        ],
-        "description": "Code snippet for a try/except/else statement"
-    },
-    "try/except/finally": {
-        "prefix": "try/except/finally",
-        "body": [
-            "try:",
-            "\t${1:pass}",
-            "except ${2:expression} as ${3:identifier}:",
-            "\t${4:pass}",
-            "finally:",
-            "\t${5:pass}"
-        ],
-        "description": "Code snippet for a try/except/finally statement"
-    },
-    "try/except/else/finally": {
-        "prefix": "try/except/else/finally",
-        "body": [
-            "try:",
-            "\t${1:pass}",
-            "except ${2:expression} as ${3:identifier}:",
-            "\t${4:pass}",
-            "else:",
-            "\t${5:pass}",
-            "finally:",
-            "\t${6:pass}"
-        ],
-        "description": "Code snippet for a try/except/else/finally statement"
-    }
+  "if": {
+    "prefix": "if",
+    "body": ["if ${1:expression}:", "\t${2:pass}"],
+    "description": "Code snippet for an if statement"
+  },
+  "if/else": {
+    "prefix": "if/else",
+    "body": ["if ${1:condition}:", "\t${2:pass}", "else:", "\t${3:pass}"],
+    "description": "Code snippet for an if statement with else"
+  },
+  "elif": {
+    "prefix": "elif",
+    "body": ["elif ${1:expression}:", "\t${2:pass}"],
+    "description": "Code snippet for an elif"
+  },
+  "else": {
+    "prefix": "else",
+    "body": ["else:", "\t${1:pass}"],
+    "description": "Code snippet for an else"
+  },
+  "while": {
+    "prefix": "while",
+    "body": ["while ${1:expression}:", "\t${2:pass}"],
+    "description": "Code snippet for a while loop"
+  },
+  "while/else": {
+    "prefix": "while/else",
+    "body": ["while ${1:expression}:", "\t${2:pass}", "else:", "\t${3:pass}"],
+    "description": "Code snippet for a while loop with else"
+  },
+  "for": {
+    "prefix": "for",
+    "body": ["for ${1:target_list} in ${2:expression_list}:", "\t${3:pass}"],
+    "description": "Code snippet for a for loop"
+  },
+  "for/else": {
+    "prefix": "for/else",
+    "body": [
+      "for ${1:target_list} in ${2:expression_list}:",
+      "\t${3:pass}",
+      "else:",
+      "\t${4:pass}"
+    ],
+    "description": "Code snippet for a for loop with else"
+  },
+  "try/except": {
+    "prefix": "try/except",
+    "body": [
+      "try:",
+      "\t${1:pass}",
+      "except ${2:expression} as ${3:identifier}:",
+      "\t${4:pass}"
+    ],
+    "description": "Code snippet for a try/except statement"
+  },
+  "try/finally": {
+    "prefix": "try/finally",
+    "body": ["try:", "\t${1:pass}", "finally:", "\t${2:pass}"],
+    "description": "Code snippet for a try/finally statement"
+  },
+  "try/except/else": {
+    "prefix": "try/except/else",
+    "body": [
+      "try:",
+      "\t${1:pass}",
+      "except ${2:expression} as ${3:identifier}:",
+      "\t${4:pass}",
+      "else:",
+      "\t${5:pass}"
+    ],
+    "description": "Code snippet for a try/except/else statement"
+  },
+  "try/except/finally": {
+    "prefix": "try/except/finally",
+    "body": [
+      "try:",
+      "\t${1:pass}",
+      "except ${2:expression} as ${3:identifier}:",
+      "\t${4:pass}",
+      "finally:",
+      "\t${5:pass}"
+    ],
+    "description": "Code snippet for a try/except/finally statement"
+  },
+  "try/except/else/finally": {
+    "prefix": "try/except/else/finally",
+    "body": [
+      "try:",
+      "\t${1:pass}",
+      "except ${2:expression} as ${3:identifier}:",
+      "\t${4:pass}",
+      "else:",
+      "\t${5:pass}",
+      "finally:",
+      "\t${6:pass}"
+    ],
+    "description": "Code snippet for a try/except/else/finally statement"
+  },
+  "info": {
+    "prefix": "info",
+    "body": [
+      "#!/usr/bin/env python",
+      "# -*- coding: utf-8 -*-",
+      "\t",
+      "__author__: ${1: xind}"
+    ],
+    "description": "Code snippet for an if statement"
+  },
+  "py": {
+    "prefix": "py",
+    "body": [
+      "import os",
+      "import sys",
+      "import argparse",
+      "\t",
+      "def main(arguments):",
+      "    parser = argparse.ArgumentParser(",
+      "    description=__doc__,",
+      "    formatter_class=argparse.RawDescriptionHelpFormatter)",
+      "    parser.add_argument('infile', help='Input file', type=argparse.FileType('r'))",
+      "    parser.add_argument('-o', '--outfile', help='Output file', default=sys.stdout, type=argparse.FileType('w'))",
+      "    args = parser.parse_args(arguments)",
+      "    print(args)",
+
+      "\t",
+      "if __name__ == '__main__':",
+      "    sys.exit(main(sys.argv[1:]))"
+    ],
+    "description": "Code snippet for an if statement"
+  }
 }
