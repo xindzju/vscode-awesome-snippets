@@ -53,5 +53,33 @@
     "prefix": "class",
     "body": ["class A {", "public:", "\t$1", "private:", "\t$2", "}"],
     "description": "C++ class template"
+  },
+
+  "port2sys": {
+    "prefix": "pt2",
+    "body": [
+      "#ifdef _WIN32",
+      "   $1",
+      "#else",
+      "   $2",
+      "#endif",
+      "   $3"
+    ],
+    "description": "C++ port template"
+  },
+
+  "port3sys": {
+    "prefix": "pt3",
+    "body": [
+      "#ifdef _WIN32",
+      "   $1",
+      "#elif __linux__",
+      "   $2",
+      "#else",
+      "#error unsupported OS",
+      "#endif",
+      "   $4"
+    ],
+    "description": "C++ port template"
   }
 }
