@@ -129,26 +129,25 @@
     ],
     "description": "Code snippet for an if statement"
   },
-  "py-unittest": {
-    "prefix": "py",
+  "unittest": {
+    "prefix": "unittest",
     "body": [
-      "import os",
-      "import sys",
-      "import argparse",
+      "import unittest",
+      "$1",
+      "\t", 
+      "class ${2: MyTestCase}(unittest.TestCase):",
+      "    def setUp(self):",
+      "        ${3: pass}",
+      "\t", 
+      "    def ${4: test_func1}(self)",
+      "        $5",
       "\t",
-      "def main(arguments):",
-      "    parser = argparse.ArgumentParser(",
-      "    description=__doc__,",
-      "    formatter_class=argparse.RawDescriptionHelpFormatter)",
-      "    parser.add_argument('infile', help='Input file', type=argparse.FileType('r'))",
-      "    parser.add_argument('-o', '--outfile', help='Output file', default=sys.stdout, type=argparse.FileType('w'))",
-      "    args = parser.parse_args(arguments)",
-      "    print(args)",
-
+      "    def tearDown(self):",
+      "        ${6: pass}",
       "\t",
       "if __name__ == '__main__':",
-      "    sys.exit(main(sys.argv[1:]))"
+      "    unittest.main()"
     ],
-    "description": "Code snippet for an if statement"
+    "description": "Code snippet for unittest"
   }
 }

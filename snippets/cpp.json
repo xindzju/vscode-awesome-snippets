@@ -59,13 +59,14 @@
       "TEST_CASE(\"$2\") {",
       "    //set up",
       "    $3",
-      "    //different test sections",
+      "    //test sections",
       "    SECTION(\"$4\") {",
       "        $5",
+      "        REQUIRE($6)",
       "    }",
-      "    $6",
-      "    //tear down",
       "    $7",
+      "    //tear down",
+      "    $8",
       "}"
     ],
     "description": "C++ unittest using catch"
