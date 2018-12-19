@@ -49,27 +49,37 @@
     "description": "C++ quick start for OpenCV"
   },
 
-  "cpp-Unittest": {
-    "prefix": "cv",
+  "cpp-unittest": {
+    "prefix": "unittest",
     "body": [
-      "#include <iostream>",
-      "#include <opencv2/opencv.hpp>",
+      "#define CATCH_CONFIG_MAIN",
+      "#include \"catch.hpp\"  //git@github.com:catchorg/Catch2.git",
+      "$1",
       "",
-      "using namespace std;",
-      "using namespace cv;",
-      "",
-      "int main() {",
-      "   $1",
-      "   cin.get();",
-      "   return 0;",
+      "TEST_CASE(\"$2\") {",
+      "    //set up",
+      "    $3",
+      "    //different test sections",
+      "    SECTION(\"$4\") {",
+      "        $5",
+      "    }",
+      "    $6",
+      "    //tear down",
+      "    $7",
       "}"
     ],
-    "description": "C++ quick start for OpenCV"
+    "description": "C++ unittest using catch"
   },
 
   "class": {
     "prefix": "class",
-    "body": ["class A {", "public:", "\t$1", "private:", "\t$2", "}"],
+    "body": [
+      "class A {", 
+      "public:", 
+      "\t$1", 
+      "private:", 
+      "\t$2", "}"
+    ],
     "description": "C++ class template"
   },
 

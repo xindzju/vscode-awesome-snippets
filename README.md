@@ -17,7 +17,8 @@ The most complete C/C++, Python snippets for VS Code.
 | :-------------: | :------------------------: |
 | info            | C++ file info              |
 | cpp             | C++ quick start            |
-| cppcv           | C++ quick start for OpenCV |
+| cv              | C++ quick start for OpenCV |
+| unittest        | C++ unittest using catch   |
 | more is comming |
 
 <font color=DarkGreen>*Options for Python*</font>
