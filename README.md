@@ -1,5 +1,5 @@
 # VSCode-Awesome Snippets Complete
-The most complete C/C++, Python snippets for VS Code.
+The most complete C/C++, Python and Shell   snippets for VS Code.
 
 ### Getting Started
 #### Prerequisites
