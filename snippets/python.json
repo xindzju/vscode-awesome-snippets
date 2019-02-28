@@ -97,15 +97,14 @@
     ],
     "description": "Code snippet for a try/except/else/finally statement"
   },
-  "info": {
-    "prefix": "info",
+  "shebang": {
+    "prefix": "shebang",
     "body": [
       "#!/usr/bin/env python",
       "# -*- coding: utf-8 -*-",
-      "\t",
-      "__author__: ${1: xind}"
+      "$1"
     ],
-    "description": "Code snippet for an if statement"
+    "description": "shebang for python script"
   },
   "py": {
     "prefix": "py",

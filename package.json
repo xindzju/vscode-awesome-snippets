@@ -3,7 +3,7 @@
   "displayName": "Awesome Snippets",
   "description": "The most complete C/C++, Python snippets for VS Code.",
   "icon": "images/logo.png",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "publisher": "xindzju",
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install",
@@ -24,6 +24,10 @@
       {
         "language": "python",
         "path": "./snippets/python.json"
+      },
+      {
+        "language": "shellscript",
+        "path": "./snippets/shell.json"
       }
     ]
   },
