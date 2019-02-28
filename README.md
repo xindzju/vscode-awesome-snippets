@@ -11,23 +11,31 @@ The most complete C/C++, Python snippets for VS Code.
 * Step3: Relaunch Visual Studio Code to make the extension work.
 
 ### Usage
+e.g.
+<br>
 <font color=DarkGreen>*Options for C++*</font>
 
 | prefix          | discription                |
 | :-------------: | :------------------------: |
-| info            | C++ file info              |
-| cpp             | C++ quick start            |
-| cv              | C++ quick start for OpenCV |
-| unittest        | C++ unittest using catch   |
-| more is comming |
+| info            | file info              |
+| cpp             | quick start            |
+| cv              | quick start for OpenCV |
+| unittest        | unittest using catch   |
 
 <font color=DarkGreen>*Options for Python*</font>
 
 | prefix          | discription      |
 | :-------------: | :--------------: |
-| info            | Python file info |
-| unittest        | Python unittest  |
-| more is comming |
+| shebang         | shebang and encoding |
+| unittest        | unittest  |
+
+<font color=DarkGreen>*Options for Shell*</font>
+| prefix          | discription      |
+| :-------------: | :--------------: |
+| shebang         | shebang|
+| if        |  if |
+| elseif |elseif|
+| else           |else|
 
 *Demo*
 
