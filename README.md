@@ -30,12 +30,13 @@ e.g.
 | unittest        | unittest  |
 
 <font color=DarkGreen>*Options for Shell*</font>
+
 | prefix          | discription      |
 | :-------------: | :--------------: |
-| shebang         | shebang|
-| if        |  if |
-| elseif |elseif|
-| else           |else|
+| shebang         | shebang          |
+| if              | if               |
+| elseif          | elseif           |
+| else            | else             |
 
 *Demo*
 
